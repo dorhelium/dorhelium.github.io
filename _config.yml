@@ -1,6 +1,20 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: Doreen He # your name (or website title) here
+logo: "/images/profile.png?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  
+  <center>
+  Hello, my name is Doreen. I'm currently a B.Sc Computer Science student at McGill University. I'm passionate about technologies in computer graphics and animations. My main technical sckills include C++, Java, OpenGL, Python and C. I also have knowleges in 3ds Max modelling and designing. Recently I have been exploring machine learning as well. Here are some of my projects! Click the projects to view more details.
+  <br><br>
+  </center>
+  <center>
+    <a href="https://www.linkedin.com/in/doreen-he-443118129/">
+       <img alt="LinkedIn" src="images/linkedin.png" width=40" height="40">
+    </a>
+    <a href="mailto: doreen.he9884@gmail.com">
+       <img alt="email" src="images/e.png" width=40" height="40">
+    </a>
+  </center>
+  
 theme: jekyll-theme-minimal
+
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here
