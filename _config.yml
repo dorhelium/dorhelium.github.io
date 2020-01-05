@@ -9,9 +9,10 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   
 
-  <p id="rcorners2">
+   <b id="rcorners2">
     Contact me:
-    <center>
+    <br>
+   <center>
     <a href="https://www.linkedin.com/in/doreen-he-443118129/">
        <img alt="LinkedIn" src="images/linkedin.png" width=40" height="40">
     </a>
@@ -21,8 +22,9 @@ description: > # your text below (remove <br> elements if you don't need line br
     <a href="https://github.com/dorhelium">
        <img alt="github" src="images/github.png" width=40" height="40">
     </a>
-    </center>
-  </p>
+   </center>
+  </b>
+
 
 
   
