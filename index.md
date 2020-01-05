@@ -12,7 +12,7 @@
 ---
 
 # [NeurIPS Reproducibility Challenge 2019](https://github.com/dorhelium/NeurIPS)
-<img src="images/challenge.png?raw=true"/>
+<img src="images/neurIPS.png?raw=true"/>
 
 > **This project is submitted to [Reproducibility Challenge @ NeurIPS 2019](https://reproducibility-challenge.github.io/neurips2019/). Reproducibility Challenge @ NeurIPS 2019 is the most recent edition of the reproducibility challenge for members of the machine learning community to dive deep into cutting-edge research by aiming to re-implement parts of a paper. This project is based on the paper _[Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://arxiv.org/abs/1906.07413)_ with the focus on algorithm re-implementation and baseline improvement. A general scheme for baseline improvement with learning rate step decay and triangular policy is proposed in this project.**
 
