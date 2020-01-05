@@ -2,7 +2,7 @@
 @import "rouge-github";
 
 
-
+/* gradient background*/
 body {
  /*
   background-color: #fff;
@@ -18,7 +18,7 @@ body {
 	height: 100vh;
 	font-family: "Exo", sans-serif;
 	color:#727272;
-	background: linear-gradient(-45deg, #fff0fe, #fce3fb, #eddaec, #e0f8ff);
+	background: linear-gradient(-45deg, #fff0fe, #fce3fb, #ffffff, #ffe8f6);
 	background-size: 400% 400%;
 	animation: gradientBG 5s ease infinite;
 }
@@ -49,6 +49,14 @@ a:hover {
 	color: #ddd;
 }
 
+/* rounded boarder */
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #ffa1bd;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
 
 
 h1, h2, h3, h4, h5, h6 {
