@@ -54,7 +54,7 @@
 ---
 
 # [Reddit Comment Classification](http://example.com/)
-<img src="images/reddit.png?raw=true"/>
+<img src="images/redditResult.png?raw=true"/>
 
 > **Supervised text classification is an automated process of classification of text into predefined categories. The goal of this project to to classify a comment from reddit.com as coming from one of 20 selected subreddits (subform communities). We have explored this with several different text cleaning and feature extraction methods. Different classic machine learning algorithms are also applied and compared in terms of their performance in the context of data distribution: Multinomial Naive Bayesian classification (NB), Logistic Regression (LR), Random Forest classification (RF), Support Vector Machines (SVM) and ensumble methods.**
 
