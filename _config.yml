@@ -13,6 +13,9 @@ description: > # your text below (remove <br> elements if you don't need line br
     <a href="mailto: doreen.he9884@gmail.com">
        <img alt="email" src="images/e.png" width=40" height="40">
     </a>
+    <a href="https://github.com/dorhelium">
+       <img alt="github" src="images/github.png" width=40" height="40">
+    </a>
   </center>
   
 theme: jekyll-theme-minimal
