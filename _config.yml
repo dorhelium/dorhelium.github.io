@@ -9,23 +9,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   
 
-   <div id="rcorners2">
-   Contact me:
-   <center>
-    <a href="https://www.linkedin.com/in/doreen-he-443118129/">
-       <img alt="LinkedIn" src="images/linkedin.png" width=40" height="40">
-    </a>
-    <a href="mailto: doreen.he9884@gmail.com">
-       <img alt="email" src="images/e.png" width=40" height="40">
-    </a>
-    <a href="https://github.com/dorhelium">
-       <img alt="github" src="images/github.png" width=40" height="40">
-    </a>
-    </center>
-    <br><br>
-   </div>
-
-
 
 
   
