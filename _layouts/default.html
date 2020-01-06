@@ -18,11 +18,14 @@
         <!-- <h1 style="font-family: fantasy; font-size:30px;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
         <br>
         <h1 style="font-family: fantasy; font-size:30px; color: dimgray; text-align:center;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+       
+        <center>
+        
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         
-        <center>
+        
         <p style="font-family: 'Comic Sans MS'; text-align:justify; ">{{ site.description | default: site.github.project_tagline }}</p>
         
         
