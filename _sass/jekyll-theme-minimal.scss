@@ -18,7 +18,7 @@ body {
 	height: 100vh;
 	font-family: "Exo", sans-serif;
 	color:#727272;
-	background: linear-gradient(-45deg, #fff0f5, #f6f0ff, #f0f9ff);
+	background: linear-gradient(-45deg, #fff0f5, #f6f0ff, #f0f9ff, #fffdf0);
 	background-size: 400% 400%;
 	animation: gradientBG 5s ease infinite;
 }
@@ -244,7 +244,7 @@ hr {
   //background:#e5e5e5;
   background: #d28692;
 	
-  height:1px;
+  height:3px;
   margin:0 0 20px;
 }
 
@@ -275,7 +275,7 @@ footer {
 
   section {
     //border:1px solid #e5e5e5;
-    border:1px solid #d28692;  
+    border:3px solid #d28692;  
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
