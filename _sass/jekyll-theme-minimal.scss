@@ -118,7 +118,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:2px solid #d28692;
+  border-left:3px solid #d28692;
   margin:0;
   padding:0 0 0 20px;
   //font-style:italic;
@@ -146,8 +146,7 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  //border-bottom:1px solid #e5e5e5;
-  border-bottom:2px solid #d28692;
+  border-bottom:1px solid #e5e5e5;
 }
 
 dt {
@@ -242,7 +241,9 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  //background:#e5e5e5;
+  background: #d28692;
+	
   height:1px;
   margin:0 0 20px;
 }
@@ -273,7 +274,8 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    //border:1px solid #e5e5e5;
+    border:1px solid #d28692;  
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
