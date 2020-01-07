@@ -67,9 +67,9 @@ a:hover {
 .watercolor-image {
   background-image: url('/images/watercolor.png');
  
-  background-position: center;
+  background-position: cover;
   background-repeat: no-repeat;
-  background-size: 300% 300%;
+  background-size: 50% 100%;
   position: relative;
 }
 
