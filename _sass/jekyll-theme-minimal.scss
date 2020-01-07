@@ -29,7 +29,7 @@ body {
 	*/ 
 	
 	background: url('/images/watercolor.png'), linear-gradient(-45deg, #fffdf0,  #f0f9ff, #f6f0ff, #fff0f5);
-	background-size: 60% 100%, 400% 400%;
+	background-size: 60% 120%, 400% 400%;
 	//background-position: -15% 50%, center center;
 	background-repeat: no-repeat, repeat;
 	background-attachment: fixed, fixed; 
@@ -40,13 +40,13 @@ body {
 
 @keyframes gradientBG {
 	0% {
-		background-position: -20% 50%, 0% 50%;
+		background-position: -25% 50%, 0% 50%;
 	}
 	50% {
-		background-position: -20% 50%, 100% 50%;
+		background-position: -25% 50%, 100% 50%;
 	}
 	100% {
-		background-position: -20% 50%, 0% 50%;
+		background-position: -25% 50%, 0% 50%;
 	}
 }
 
