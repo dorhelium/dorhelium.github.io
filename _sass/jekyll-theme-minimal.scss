@@ -28,11 +28,11 @@ body {
 	background-attachment: fixed; 
 	*/
 	background: url('/images/watercolor.png'), linear-gradient(-45deg, #fff0f5, #f6f0ff, #f0f9ff, #fffdf0);
-	background-size: 50% 100%, 400% 400%;
+	background-size: 50% 100%, 100% 100%;
 	background-position: cover, none;
 	background-attachment: fixed, none; 
-	background-repeat: no-repeat, none;
-	animation: none, gradientBG 5s ease infinite;
+	background-repeat: no-repeat, no-repeat;
+	//animation: none, gradientBG 5s ease infinite;
 }
 
 @keyframes gradientBG {
