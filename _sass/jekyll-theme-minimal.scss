@@ -29,8 +29,8 @@ body {
 	*/ 
 	background: url('/images/watercolor.png'), linear-gradient(-45deg, #fffdf0,  #f0f9ff, #f6f0ff, #fff0f5);
 	background-size: 50% 100% , 100% 100%;
-	background-position: cover, cover;
-	background-attachment: fixed, none; 
+	background-position: cover, none;
+	background-attachment: fixed, fixed; 
 	background-repeat: no-repeat, no-repeat;
 	//animation: none, gradientBG 5s ease infinite;
 }
