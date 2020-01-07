@@ -12,7 +12,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper; watercolor-image">
+    <div class="wrapper">
       <header>
         
         <!-- <h1 style="font-family: fantasy; font-size:30px;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
@@ -21,15 +21,16 @@
        
         <center>
         
+        <div class="watercolor-image">
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
         
         
         <p style="font-family: 'Comic Sans MS'; text-align:justify; color: #2f3738 ">{{ site.description | default: site.github.project_tagline }}</p>
-      
+        </div>
         
-        <div id="rcorners2" style="font-family: 'Comic Sans MS'">
+        <div id="rcorners2" style="font-family: 'Comic Sans MS'" >
               Contact me: 
               <a href="https://www.linkedin.com/in/doreen-he-443118129/">
                  <img style="vertical-align:middle" alt="LinkedIn" src="images/linkedin.png" width=40" height="40"> </a>
