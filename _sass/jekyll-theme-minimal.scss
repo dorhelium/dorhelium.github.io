@@ -78,6 +78,15 @@ a:hover {
   height: 40px;  
 }
 
+//back
+.background-image {
+  background-image: url('/images/watercolor3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
