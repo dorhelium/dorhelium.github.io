@@ -32,7 +32,7 @@ body {
 	background-size: 60% 130%, 100% 100%;
 	//background-position: -15% 50%, center center;
 	background-repeat: no-repeat, no-repeat;
-	background-attachment: fixed, fixed; 
+	background-attachment: fixed, scroll; 
 	animation: gradientBG 5s ease infinite;
 }
 
