@@ -28,11 +28,11 @@ body {
 	background-attachment: fixed; 
 	*/ 
 	
-	background: url('/images/watercolor4.png'), linear-gradient(-45deg, #fffdf0,  #f0f9ff, #f6f0ff, #fff0f5);
-	background-size: 25%, 400% 400%;
+	background: url('/images/watercolor1.png'), url('/images/watercolor4.png'), linear-gradient(-45deg, #fffdf0,  #f0f9ff, #f6f0ff, #fff0f5);
+	background-size: 50% 80% ,25%, 400% 400%;
 	//background-position: right top, center center;
-	background-repeat: no-repeat, repeat;
-	background-attachment: fixed, fixed; 
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-attachment: fixed, fixed, fixed; 
 	animation: gradientBG 3s ease infinite;
 	/*
 	background:linear-gradient(-45deg, #fffdf0,  #f0f9ff, #f6f0ff, #fff0f5);
@@ -49,13 +49,13 @@ body {
 @keyframes gradientBG {
 	//-30, 50
 	0% {
-		background-position:  right top, 0% 50%;
+		background-position:  -30% 50%, right top, 0% 50%;
 	}
 	50% {
-		background-position:  right top, 100% 50%;
+		background-position:   -30% 50%, right top, 100% 50%;
 	}
 	100% {
-		background-position:  right top, 0% 50%;
+		background-position:   -30% 50%, right top, 0% 50%;
 	}
 }
 
@@ -92,7 +92,7 @@ a:hover {
   background-image: url('/images/watercolor1.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 200% 200%;
+  background-size: 100% 100%;
   position: relative;
 }
 
