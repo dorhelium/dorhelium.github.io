@@ -28,11 +28,11 @@ body {
 	background-attachment: fixed; 
 	*/ 
 	
-	background: url('/images/marble.png'), url('/images/watercolor4.png'), linear-gradient(-45deg, #fffdf0,  #f0f9ff, #f6f0ff, #fff0f5);
-	background-size: 40% 100% ,25%, 400% 400%;
+	background:  url('/images/watercolor4.png'), linear-gradient(-45deg, #fffdf0,  #f0f9ff, #f6f0ff, #fff0f5);
+	background-size: 25%, 400% 400%;
 	//background-position: right top, center center;
-	background-repeat: no-repeat, no-repeat, repeat;
-	background-attachment: fixed, fixed, fixed; 
+	background-repeat:  no-repeat, repeat;
+	background-attachment: fixed, fixed; 
 	animation: gradientBG 3s ease infinite;
 	/*
 	background:linear-gradient(-45deg, #fffdf0,  #f0f9ff, #f6f0ff, #fff0f5);
@@ -49,13 +49,13 @@ body {
 @keyframes gradientBG {
 	//-30, 50
 	0% {
-		background-position:  0% 50%, right top, 0% 50%;
+		background-position:  right top, 0% 50%;
 	}
 	50% {
-		background-position:   0% 50%, right top, 100% 50%;
+		background-position:    right top, 100% 50%;
 	}
 	100% {
-		background-position:   0% 50%, right top, 0% 50%;
+		background-position:   right top, 0% 50%;
 	}
 }
 
@@ -205,6 +205,10 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+	
+  background: url('/images/marble.png');
+  background-repeat: repeat;
+  background-attachment: fixed; 
 }
 
 ul.downloads {
