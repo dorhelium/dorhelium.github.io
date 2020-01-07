@@ -32,8 +32,11 @@ body {
 	background-size: 100% 100%;
 	background-position: cover;
 	background-repeat: no-repeat;
-	animation: gradientBG 5s ease infinite;
+	background-attachment: fixed; 
+	//animation: gradientBG 5s ease infinite;
 }
+
+
 
 @keyframes gradientBG {
 	0% {
@@ -60,6 +63,17 @@ a:hover {
 	text-decoration: none;
 	color: #ddd;
 }
+
+.watercolor-image {
+  background-image: url('/images/watercolor.png');
+ 
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  position: relative;
+}
+
+
 
 /* rounded boarder */
 #rcorners2 {
