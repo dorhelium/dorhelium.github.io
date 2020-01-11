@@ -51,7 +51,7 @@
 
 ---
 
-# [Transform Hierarchy System for Animated Characters](https://github.com/dorhelium/TransformHierarchy)
+# [Transform Hierarchy System for Animated Characters Creation](https://github.com/dorhelium/TransformHierarchy)
 <img src="images/spiderClip.gif?raw=true"/>
 
 > This project deploys a hierarchy of transformations to draw characters. The characters are a collection of rigid objects connected by various parametric joints, such as single axis rotary joints, spherical joints, etc. Unique characters can be made using the implemented elements. The transformation hierarchy is developed to pose the characters and ultimately create a short key frame animation. Each key frame is then interpolated to produce a continuous animated clip.
@@ -60,7 +60,7 @@
 
 ---
 
-# [Reddit Comment Classification](http://example.com/)
+# [Reddit Comment Classification](https://github.com/dorhelium/RedditClassification)
 <img src="images/redditResult.png?raw=true"/>
 
 > Supervised text classification is an automated process of classification of text into predefined categories. The goal of this project to to classify a comment from reddit.com as coming from one of 20 selected subreddits (subform communities). We have explored this with several different text cleaning and feature extraction methods. Different classic machine learning algorithms are also applied and compared in terms of their performance in the context of data distribution: Multinomial Naive Bayesian classification (NB), Logistic Regression (LR), Random Forest classification (RF), Support Vector Machines (SVM) and ensumble methods.
