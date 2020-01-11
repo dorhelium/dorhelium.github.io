@@ -69,10 +69,11 @@
 
 ---
 
+<!--
 # [Classic Machine Learning Algoritms Implement from Scratch: Logistic Regression, Naive Bayes, linear discriminant analysis (LDA)](http://example.com/)
 
 > This is a comparative study over Logistic Regression, Naive Bayes, linear discriminant analysis (LDA). The indepth details of each algorithms are interms of their basic logics, assumptions, effects of co-linearity & outliers and hyper-parameters. These classic machine learning algorithms are implemented and well commmented as Python classes. The implemented algorithms are tested against [Wine Quality](https://archive.ics.uci.edu/ml/datasets/Wine+Quality) and [Breast Cancer Diagnosis](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)) datasets.
-
+-->
 
 
 
