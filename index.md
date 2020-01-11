@@ -16,7 +16,7 @@
 # [NeurIPS Reproducibility Challenge 2019](https://github.com/dorhelium/NeurIPS)
 <img src="images/neurIPS.png?raw=true"/>
 
-> This project is submitted to [Reproducibility Challenge @ NeurIPS 2019](https://reproducibility-challenge.github.io/neurips2019/). Reproducibility Challenge @ NeurIPS 2019 is the most recent edition of the reproducibility challenge for members of the machine learning community to dive deep into cutting-edge research by aiming to re-implement parts of a paper. This project is based on the paper [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://arxiv.org/abs/1906.07413) with the focus on algorithm re-implementation and baseline improvement. A general scheme for baseline improvement with learning rate step decay and triangular policy is proposed in this project.
+> This project is submitted to [Reproducibility Challenge @ NeurIPS 2019](https://reproducibility-challenge.github.io/neurips2019/). Reproducibility Challenge @ NeurIPS 2019 is the most recent edition of the reproducibility challenge for members of the machine learning community to dive deep into cutting-edge research by aiming to re-implement parts of a paper. This project is based on the paper [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://arxiv.org/abs/1906.07413) with the focus of algorithm re-implementation and baseline improvement. A general scheme for baseline improvement with learning rate step decay and triangular policy is proposed in this project.
 
 <br>
 
@@ -54,7 +54,7 @@
 # [Transform Hierarchy System for Animated Characters](https://github.com/dorhelium/TransformHierarchy)
 <img src="images/spiderClip.gif?raw=true"/>
 
-> This project deploys a hierarchy of transformations to draw characters. The characters are a collection of rigid objects connected by various parametric joints, such as single axis rotary joints, spherical joints, etc. Unique characters can be made using the implemented elements. The transformation hierarchy is developed to pose the characters and ultimately create a short key frame animation. Each key frame is then interpolated to produce a continous animated clip.
+> This project deploys a hierarchy of transformations to draw characters. The characters are a collection of rigid objects connected by various parametric joints, such as single axis rotary joints, spherical joints, etc. Unique characters can be made using the implemented elements. The transformation hierarchy is developed to pose the characters and ultimately create a short key frame animation. Each key frame is then interpolated to produce a continuous animated clip.
 
 <br>
 
