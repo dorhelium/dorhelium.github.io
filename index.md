@@ -7,7 +7,7 @@
 # [Heat Diffusion Simulation](https://github.com/dorhelium/HeatDiffusion)
 <img src="images/heatdemo.gif?raw=true"/>
 
-> This project is based on an ACM Transactions on Graphics article by Crane et al., [Geodesics in Heat: A New Approach to Computing Distance Based on Heat Flow](https://dl.acm.org/citation.cfm?doid=2516971.2516977). Keenan Crane introduced the heat method for computing the deodesic distance efficiently. In practice, this method updates the distance an order of magnitude faster than the previously existing methods. This project is a reproduction of the algorithm proposed in the paper.
+> This project is based on an ACM Transactions on Graphics article by Crane et al., [Geodesics in Heat: A New Approach to Computing Distance Based on Heat Flow](https://dl.acm.org/citation.cfm?doid=2516971.2516977). Keenan Crane introduced the heat method for computing the geodesic distance efficiently. In practice, this method updates the distance an order of magnitude faster than the previously existing methods. This project is a reproduction of the algorithm proposed in the paper.
 
 <br>   
 
