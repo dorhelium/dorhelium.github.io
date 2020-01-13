@@ -4,6 +4,14 @@
 
 ---
 
+ <br>
+  Hello, my name is Doreen. I'm currently a B.Sc Computer Science student at McGill University. I'm passionate about technologies in computer graphics and animations. My main technical skills include C++/C, Java, OpenGL, GLSLshaders, and Python. I also have experience in 3d modelling and designing in 3ds Max. Recently, I have been exploring various machine learning topics in practice. 
+  <br>
+  Here are some of my projects XD! Click the projects to view more details and my source codes.
+  <br>
+  
+  ---
+
 # [Heat Diffusion Simulation](https://github.com/dorhelium/HeatDiffusion)
 <img src="images/heatdemo.gif?raw=true"/>
 
