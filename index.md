@@ -25,6 +25,16 @@
 ---
 
 
+# [Animated Characters Creation Tool](https://github.com/dorhelium/TransformHierarchy)
+<img src="images/spiderClip.gif?raw=true"/>
+
+> This project deploys a hierarchy of transformations to draw characters. The characters are a collection of rigid objects connected by various parametric joints, such as single axis rotary joints, spherical joints, etc. Unique characters can be made using the implemented elements. The transformation hierarchy is developed to pose the characters and ultimately create a short key frame animation. Each key frame is then interpolated to produce a continuous animated clip.
+
+<br>
+
+---
+
+
 # [Ray Tracer](https://github.com/dorhelium/RayTracer)
 <img src="images/raytracer.png?raw=true"/>
 
@@ -53,7 +63,7 @@
 
 ---
 
-# [Transform Hierarchy System for Animated Characters Creation](https://github.com/dorhelium/TransformHierarchy)
+# [Animated Characters Creation Tool](https://github.com/dorhelium/TransformHierarchy)
 <img src="images/spiderClip.gif?raw=true"/>
 
 > This project deploys a hierarchy of transformations to draw characters. The characters are a collection of rigid objects connected by various parametric joints, such as single axis rotary joints, spherical joints, etc. Unique characters can be made using the implemented elements. The transformation hierarchy is developed to pose the characters and ultimately create a short key frame animation. Each key frame is then interpolated to produce a continuous animated clip.
