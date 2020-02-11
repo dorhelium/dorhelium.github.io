@@ -3,7 +3,14 @@ logo: "/images/profile.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   
   <br>
-  Hello, my name is Doreen. I'm currently a B.Sc Computer Science student at McGill University. My main technical skills include C++/C, Java, Python, PostgreSQL, DB2, OpenGL, and GLSLshaders. I'm passionate about technologies in computer graphics and animations. I have experience in 3d modelling and designing in 3ds Max. Recently, I have been exploring various machine learning topics in practice. 
+  Hello, my name is Doreen. 
+  I'm currently a B.Sc Computer Science student at McGill University. 
+  My main technical skills include programing languages C++/C, Java and Python; 
+  relational data base systems PostgreSQL and  DB2;
+  Cross platform graphics API OpenGL and GLSLshaders. 
+  I'm passionate about technologies in computer graphics and animations. 
+  I have experience in 3d modelling and designing in 3ds Max. 
+  Recently, I also have been exploring machine learning in practice. 
   <br>
   <br>
   Here are some of my projects XD! Click the projects to view more details and my source codes.
