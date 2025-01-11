@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Clean Blog - Start Bootstrap Theme
+        title Whispers of Dor's Magnetic North
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -19,81 +19,25 @@ html(lang='en')
         include includes/navbar.pug
 
         // Page Header
-        header.masthead(style="background-image: url('assets/img/home-bg.jpg')")
+        header.masthead(style="background-image: url('assets/img/about-bg.jpg'); background-position: right 50% top 35%")
             .container.position-relative.px-4.px-lg-5
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-md-10.col-lg-8.col-xl-7
-                        .site-heading
-                            h1 Clean Blog
-                            span.subheading A Blog Theme by Start Bootstrap
+                        .page-heading
+                            h1 Whispers of Dor's Magnetic North
 
         // Main Content
-        .container.px-4.px-lg-5
-            .row.gx-4.gx-lg-5.justify-content-center
-                .col-md-10.col-lg-8.col-xl-7
+        main.mb-4
+            .container.px-4.px-lg-5
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-md-10.col-lg-8.col-xl-7
+                        H3
+                            | Hello friends.
+                        p
+                            | If you somehow arrived here, I want to give you a big hug first. Welcome to this little space that was born out of a rush of throughts on a random Wednesday night.
+                        p
+                            | As the title suggests, this is where I capture the whispers of my inner magnetic north from my mind and my heart. It is constantly evolving, certainly not perfect, but the journey is to be cherished.
 
-                    // Post preview
-                    .post-preview
-                        a(href='post.html')
-                            h2.post-title
-                                | Man must explore, and this is exploration at its greatest
-                            h3.post-subtitle
-                                | Problems look mighty small from 150 miles up
-                        p.post-meta
-                            | Posted by
-                            a(href='#!') Start Bootstrap
-                            | on September 24, 2023
-                    
-                    // Divider
-                    hr.my-4
-
-                    // Post preview
-                    .post-preview
-                        a(href='post.html')
-                            h2.post-title
-                                | I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                        p.post-meta
-                            | Posted by
-                            a(href='#!') Start Bootstrap
-                            | on September 18, 2023
-                    
-                    // Divider
-                    hr.my-4
-
-                    // Post preview
-                    .post-preview
-                        a(href='post.html')
-                            h2.post-title
-                                | Science has not yet mastered prophecy
-                            h3.post-subtitle
-                                | We predict too much for the next year and yet far too little for the next ten.
-                        p.post-meta
-                            | Posted by
-                            a(href='#!') Start Bootstrap
-                            | on August 24, 2023
-
-                    // Divider
-                    hr.my-4
-
-                    // Post preview
-                    .post-preview
-                        a(href='post.html')
-                            h2.post-title
-                                | Failure is not an option
-                            h3.post-subtitle
-                                | Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                        p.post-meta
-                            | Posted by
-                            a(href='#!') Start Bootstrap
-                            | on July 8, 2023
-                    
-                    // Divider
-                    hr.my-4
-
-                    // Pager
-                    .d-flex.justify-content-end.mb-4
-                        a.btn.btn-primary.text-uppercase(href='#!') Older Posts →
-        
         include includes/footer.pug
 
         include includes/scripts.pug
