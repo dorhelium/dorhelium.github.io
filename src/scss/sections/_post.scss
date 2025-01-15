@@ -9,13 +9,18 @@
 }
 
 .caption {
-    font-size: $font-size-sm;
-    font-style: italic;
+    font-size: $font-size-base * 1.15;
     display: block;
     margin: 0;
     padding: 0.625rem;
-    text-align: center;
+    text-align: left;
 }
+
+.paragraph {
+    font-size: $font-size-base * 1.1;
+    display: block;
+}
+
 
 // Styling for post previews on the blog homepage
 

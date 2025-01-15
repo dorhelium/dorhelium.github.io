@@ -26,6 +26,8 @@ html(lang='en')
                         .page-heading
                             h1 The Whispers of My Magnetic North
 
+                            //- h3.subheading in an unwavering pursuit of meaning
+
         // Main Content
         main.mb-4
             .container.px-4.px-lg-5
@@ -33,12 +35,24 @@ html(lang='en')
                     .col-md-10.col-lg-8.col-xl-7
                         H3
                             | Hello friends,
-                        p
+                        p.caption
                             | If you’ve found your way here, I hope to give you a big hug in real life. Welcome to this little corner, born out of a burst of thoughts on a quiet Wednesday night.
 
-                        p
-                            | As the title suggests, this is where I capture the whispers of my inner magnetic north - the pursuit of the depth of living, even when the direction is totally unclear. Here there is no perfection. There is no permanence. There are only the fleeting moments, the messy thoughts, the gentle feelings, the intense passions that demand to be remembered. The journey, with all its ups and downs, is something to be cherished. 
+                        p.caption
+                            | As the title suggests, this is where I capture the whispers of my inner magnetic north - the pursuit of the depth and meaning, even when the direction is totally unclear.
 
+                        p.caption   
+                            | There is no perfection here. There is no permanence. There are only the fleeting moments, the messy thoughts, the gentle feelings, the intense passions that demand to be shared and remembered. The journey, with all its ups and downs, is something to be cherished.
+
+                        p.fst-italic.text-end
+                            | - Dor ✍️
+                    
+                    // Divider
+                    hr.my-4.col-md-10.col-lg-8.col-xl-7
+
+                    // Pager
+                    .d-flex.justify-content-end.col-md-10.col-lg-8.col-xl-7
+                        a.btn.btn-primary.text-uppercase(href='blog.html') Writing →
 
         include includes/footer.pug
 
