@@ -10736,10 +10736,10 @@ header.masthead .post-heading .meta a {
   header.masthead .page-heading h1, header.masthead .page-heading .h1,
   header.masthead .site-heading h1,
   header.masthead .site-heading .h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   header.masthead .post-heading h1, header.masthead .post-heading .h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   header.masthead .post-heading .subheading {
     font-size: 1.875rem;
@@ -10753,12 +10753,16 @@ header.masthead .post-heading .meta a {
 }
 
 .caption {
-  font-size: 0.875rem;
-  font-style: italic;
+  font-size: 1.15rem;
   display: block;
   margin: 0;
   padding: 0.625rem;
-  text-align: center;
+  text-align: left;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  display: block;
 }
 
 .post-preview > a {
