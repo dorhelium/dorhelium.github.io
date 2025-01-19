@@ -10,16 +10,17 @@ html(lang='en')
 
         title Doreen He
 
-        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+        link(rel='icon', type='image/x-icon', href='../assets/favicon.ico')
+        link(href='../css/styles.css', rel='stylesheet')
 
-        include includes/css.pug
+        include ../includes/css.pug
 
     body
 
-        include includes/navbar.pug
+        include ../includes/navbar.pug
 
         // Page Header
-        header.masthead(style="background-image: url('assets/img/D1_50.jpg'); background-position: right 50% top 15%")
+        header.masthead(style="background-image: url('../assets/img/D1_50.jpg'); background-position: right 50% top 15%")
             .container.position-relative.px-4.px-lg-5
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-md-10.col-lg-8.col-xl-7
@@ -34,8 +35,8 @@ html(lang='en')
 
                     // Post preview
                     .post-preview
-                        a(href='post.html')
-                            h3.post-subtitle No.1 - Finding Gravity
+                        a(href='../posts/finding_gravity')
+                            h4.post-subtitle No.1 - Finding Gravity
                         p.post-meta on Jan 17, 2025
                             //- a(href='#!') Doreen He
                     
@@ -46,6 +47,6 @@ html(lang='en')
                     //- .d-flex.justify-content-end.mb-4
                     //-     a.btn.btn-primary.text-uppercase(href='#!') Older Posts →
         
-        include includes/footer.pug
+        include ../includes/footer.pug
 
-        include includes/scripts.pug
+        include ../includes/scripts.pug
