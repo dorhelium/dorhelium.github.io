@@ -10,16 +10,17 @@ html(lang='en')
 
         title Doreen He
 
-        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+        link(rel='icon', type='image/x-icon', href='../../assets/favicon.ico')
+        link(href='../../css/styles.css', rel='stylesheet')
 
-        include includes/css.pug
+        include ../../includes/css.pug
 
     body
 
-        include includes/navbar.pug
+        include ../../includes/navbar.pug
 
         // Page Header
-        header.masthead(style="background-image: url('assets/img/po1.jpg'); background-position: right 50% top 45%;")
+        header.masthead(style="background-image: url('../../assets/img/po1.jpg'); background-position: right 50% top 45%;")
             .container.position-relative.px-4.px-lg-5
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-md-10.col-lg-8.col-xl-7
@@ -57,10 +58,10 @@ html(lang='en')
                         span.caption.text-muted.fst-italic  GRAVITY. 
 
                         p.paragraph    
-                            | The radial concentric streets, densely built Haussmann architectures, romantic gardens, centuries-old monuments and bridges all have an enduring weightiness to it. I felt as though I was stepping on footprints of generations before me - the philosophers, revolutionaries, artists, and thinkers. Everything carries layers of meaning, and that meaning carries weight, almost sacred in its richness and complexity. You sense that you’re part of a larger story, one that continues to unfold, but is also deeply anchored in the past. If one spends enough time in such a city, it’s inevitable to experience an appreciation and introspection of some sorts. The solipsistic me finds myself craving for more moral and intellectual growth. I seek deep feeling, understanding and expression.
+                            | The radial concentric streets, densely built Haussmann architectures, romantic gardens, centuries-old monuments and bridges all have an enduring weightiness to it. I felt as though I was stepping on footprints of generations before me - the philosophers, revolutionaries, artists, and thinkers. Everything carries layers of meaning, and that meaning carries weight, almost sacred in its richness and complexity. You sense that you’re part of a larger story, one that continues to unfold, but is also deeply anchored in the past. If one spends enough time in such a city, it’s inevitable to experience an appreciation and introspection of some sorts. The solipsistic me slowly finds myself craving for more moral and intellectual growth. I seek deep feeling, understanding and expression.
 
                         p.paragraph 
-                            | The unspoken way of life is also in contrast to what I’m used to in North America. Rather than prioritize hustle, status and wealth, the people in France place greater value on community, connection, flow, arts, and beauty of all forms. Even in the middle of the day in a busy city, it’s not uncommon to see people having an elaborate lunch filled with conversations, savouring their espresso or a glass of wine without rush, stopping to appreciate the beauty and culture. I am also surprised by how the simple rituals and traditions tend to happen at the same time and punctuate their days, like lining up for the first batch of baguettes at the local boulangerie, afternoon goûter, dinner time with people, perhaps a long evening stroll, shopping fresh produce from the local market on Tue/Thur (my neighborhood), or Sunday spent with family and friends… I witnessed many vivid examples of simplicity over complexity, quality over quantity, modesty over grandiosity, longevity over ephemerality. What a rich way to experience life. Again, the word finds its way to me - Gravity.
+                            | The unspoken way of life is also in contrast to what I’m used to in North America. Rather than prioritize hustle, status and wealth, the people in France place greater value on community, connection, flow, arts, and beauty of all forms. Even in the middle of the day in a busy city, it’s not uncommon to see people having an elaborate lunch filled with conversations, savouring their espresso or a glass of wine without rush, painting or writing on the banks of La Seine, lost in the book pages by a beautiful fountain… I am also surprised by how the simple rituals and traditions tend to happen at the same time and punctuate their days, lining up for the first batch of baguettes at the local boulangerie, afternoon goûter, dinner time with people, perhaps a long evening stroll, shopping fresh produce from the local market on Tue/Thur (in my neighborhood), or Sundays spent with family and friends… I witnessed many vivid examples of simplicity over complexity, quality over quantity, modesty over grandiosity, longevity over ephemerality. What a rich way to experience life. Again, the word finds its way to me - Gravity.
                         
                         p.paragraph 
                             | I’ve always thrived on the energy, the novelty and the possibilities. But I realize it’s only when I focus, the deeper meaning and connections are fostered. Some permanence can be just as edifying as traversing through the vastness. Maybe the pursuit of moving upwards is ingrained in the gravity at first. It’s the gravity pulls life in a dimension that feels more timeless in retrospect.
@@ -74,8 +75,8 @@ html(lang='en')
 
                         // Pager
                         .d-flex.justify-content-end
-                            a.btn.btn-primary.text-uppercase(href='blog.html') More Writing →
+                            a.btn.btn-primary.text-uppercase(href='/blog') More Writing →
 
-        include includes/footer.pug
+        include ../../includes/footer.pug
 
-        include includes/scripts.pug
+        include ../../includes/scripts.pug
