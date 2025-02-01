@@ -10558,6 +10558,10 @@ p a {
   text-decoration: underline;
 }
 
+ol {
+  margin: -2rem 0 0 0;
+}
+
 blockquote {
   font-style: italic;
   color: #6c757d;
@@ -10680,7 +10684,7 @@ header.masthead:before {
   right: 0;
   bottom: 0;
   background-color: #212529;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 header.masthead .page-heading,
 header.masthead .post-heading,
@@ -10756,7 +10760,8 @@ header.masthead .post-heading .meta a {
   font-size: 1.15rem;
   display: block;
   margin: 0;
-  padding: 0.625rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
   text-align: left;
 }
 
@@ -10782,7 +10787,7 @@ header.masthead .post-heading .meta a {
   margin-bottom: 0.625rem;
 }
 .post-preview > .post-meta {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-style: italic;
   margin-top: 0;
   color: #6c757d;
