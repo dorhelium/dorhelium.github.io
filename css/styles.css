@@ -10770,6 +10770,31 @@ header.masthead .post-heading .meta a {
   display: block;
 }
 
+.img-post {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid var(--bs-border-color);
+  max-width: 50%;
+  height: auto;
+}
+
+.img-column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.img-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .img-column {
+    width: 100%;
+  }
+}
 .post-preview > a {
   color: #212529;
 }
