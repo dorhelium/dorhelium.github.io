@@ -10778,6 +10778,13 @@ header.masthead .post-heading .meta a {
   height: auto;
 }
 
+.img-center {
+  display: block;
+  margin: 1.5rem auto;
+  width: 90%;
+  height: auto;
+}
+
 .img-column {
   float: left;
   width: 50%;
@@ -10820,8 +10827,14 @@ header.masthead .post-heading .meta a {
 .post-preview > .post-meta > a {
   text-decoration: none;
 }
+
+.post-preview a .post-meta {
+  font-size: 1rem;
+  font-style: italic;
+  color: #6c757d;
+}
 @media (min-width: 992px) {
-  .post-preview > a > .post-title {
+  .post-preview a .post-meta > a > .post-title {
     font-size: 2.25rem;
   }
 }
